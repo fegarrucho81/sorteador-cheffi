@@ -1,7 +1,29 @@
 function sortear() {
-            const resultado = Math.random() < 0.5 
-                ? "vamos almoçar 11h30" 
-                : "vamos almoçar 13h";
-            
-            document.getElementById("resultado").textContent = resultado;
-        }
+    const nomes = [
+        "felipe",
+        "davi",
+        "daniel",
+        "isabella",
+        "gabriel",
+        "liria",
+        "fernanda",
+        "mariana",
+        "giovanna",
+        "beatriz",
+        "isaque",
+        "bruno",
+        "clara",
+        "willian",
+        "bi",
+        "luquinhas",
+        "gi do lipe",
+        "dani quesada",
+        "barbara",
+        "murilo",
+        "flor"
+    ];
+
+    const sorteado = nomes[Math.floor(Math.random() * nomes.length)];
+
+    document.getElementById("resultado").textContent = sorteado;
+}
