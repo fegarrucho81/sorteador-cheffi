@@ -1,4 +1,7 @@
 function sortear() {
+    const audio = document.getElementById("bgm");
+    audio.volume = 0.3; 
+    audio.play();
     const nomes = [
         "Parque do Ibirapuera",
         "Comedoria SP",
