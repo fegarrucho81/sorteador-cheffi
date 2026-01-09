@@ -1,26 +1,16 @@
 function sortear() {
     const nomes = [
-        "felipe",
-        "davi",
-        "daniel",
-        "isabella",
-        "gabriel",
-        "liria",
-        "fernanda",
-        "mariana",
-        "giovanna",
-        "beatriz",
-        "isaque",
-        "bruno",
-        "clara",
-        "willian",
-        "bi",
-        "luquinhas",
-        "gi do lipe",
-        "dani quesada",
-        "barbara",
-        "murilo",
-        "flor"
+        "Parque do Ibirapuera",
+        "Comedoria SP",
+        "Pastel Yoka + Liberdade",
+        "Embu das Artes",
+        "Catavento",
+        "Museu da Independência",
+        "Cinema de Rua na Av. Paulista",
+        "Museu Ema Klabin",
+        "Parque Maeda",
+        "Bario Bar",
+        "Roller Dance"
     ];
 
     const sorteado = nomes[Math.floor(Math.random() * nomes.length)];
